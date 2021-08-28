@@ -4,8 +4,6 @@ import { SidebarData } from "./SidebarData";
 import "./Sidebar.css";
 
 export const Sidebar = () => {
-  const [sideBar, setSideBar] = useState(false);
-
   return (
     <div className="nav-menu">
       <h2>React UI Challenge</h2>
